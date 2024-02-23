@@ -1,0 +1,103 @@
+.wd-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 125px;
+    margin: 0px;
+    margin-left: 20px;
+  }
+  .wd-navigation li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .wd-navigation li.wd-active {
+    border-left: 2px solid black;
+  }
+  .wd-navigation li.wd-active a {
+    color: black;
+  }
+  .wd-navigation a {
+    color: rgb(181, 40, 40);
+    text-decoration: none;
+  }
+  
+.wd-collapse-nav {
+  background-color: white;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.wd-collapse-nav a {
+  color: rgb(181, 40, 40);
+  text-decoration: none;
+}
+
+.wd-collapse-nav li.wd-active a {
+  font-weight: bold;
+  color: rgb(181, 40, 40);
+}
+
+.wd-modal-nav {
+  background-color: white;
+  list-style: none;
+  padding: 0px;
+  width: 125px;
+  margin: 0px;
+  margin-left: 20px;
+}
+
+.wd-modal-nav h5{
+  color: rgb(181, 40, 40);
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.wd-modal-nav a {
+  color: rgb(181, 40, 40);
+  text-decoration: none;
+}
+
+
+.navbar-toggler[aria-expanded="true"] .fa-chevron-down {
+  display: none;
+}
+.navbar-toggler[aria-expanded="false"] .fa-xmark {
+  display: none;
+}
+
+.btn-custom {
+  background-color: #f8f9fa; 
+  color: #212529; 
+  border: 1px solid #ced4da;
+  border-radius: 3px; 
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 14px; 
+}
+
+.btn-custom:hover {
+  background-color: #f8f9fa; 
+  color: #212529; 
+  border: 1px solid #ced4da;
+}
+
+.btn-custom-red {
+  background-color: rgb(226, 30, 30);
+  color: white; 
+  border: 1px solid #ced4da;
+  border-radius: 3px; 
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 14px; 
+}
+
+.btn-custom-red:hover {
+  background-color: #ff0000; 
+  color: #212529; 
+  border: 1px solid #ced4da;
+}
